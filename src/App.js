@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import PortalDemo from "./components/PortalDemo";
+// import PortalDemo from "./components/PortalDemo";
+import Parent from "./components/Parent";
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+      <Parent />
     </div>
   );
 }
